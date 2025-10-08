@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Streamlit
+.streamlit/
+
+# FAISS vector stores
+hvac_vector_store/
+*.faiss
+*.pkl
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# PDF test files (optional - uncomment if you don't want to track PDFs)
+# hvac_documents/*.pdf
+# atlanta_codes/*.pdf
+
+# Neo4j data (if running locally)
+neo4j_data/
+
+# OS
+Thumbs.db
